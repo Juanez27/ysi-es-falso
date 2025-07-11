@@ -1,0 +1,435 @@
+body {
+    font-family: Verdana, sans-serif;
+    font-size: 20px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #69c1f7;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    padding: 2rem;
+    font-family: Verdana, sans-serif;
+}
+
+button {
+    background: #69c1f7;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #e8491d;
+}
+
+/* Los estilos mal puestos dentro de button:hover los paso aquí correctamente */
+
+h1 {
+    text-align: center;
+    color: #222;
+    margin-bottom: 2rem;
+}
+
+.contenedor-articulos {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.articulo {
+    display: flex;
+    background: #fff;
+    font-family: Verdana, sans-serif;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.articulo img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.info-articulo {
+    padding: 1em;
+}
+
+.info-articulo h2 {
+    margin: 0 0 0.5em;
+    color: #0056b3;
+}
+
+.info-articulo a {
+    text-decoration: none;
+}
+
+.info-articulo a:hover h2 {
+    color: #ff6600;
+}
+
+.info-articulo p {
+    margin: 0;
+    color: #444;
+}
+header {
+  background: #69c1f7;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.menu {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.menu a {
+  background-color: #69c1f7;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.menu a:hover {
+  background-color: #e8491d;
+  color: white;
+}
+.seccion-info {
+  background-color: #ffffff;
+  padding: 2rem;
+  margin: 2rem auto;
+  max-width: 800px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.seccion-info h2 {
+  color: #0056b3;
+  margin-bottom: 1rem;
+}
+
+.seccion-info p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #333;
+}
+html {
+  scroll-behavior: smooth;
+}
+.redes-sociales {
+  background-color: #69c1f7;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding: 0.5rem 0;
+}
+
+.redes-sociales a {
+  color: white;
+  font-size: 1.2rem;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.redes-sociales a:hover {
+  color: #ffcc00;
+}
+.contenedor-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #222;
+  padding: 10px 20px;
+  color: white;
+  flex-wrap: wrap;
+}
+
+.logo img {
+  height: 50px;
+  width: auto;
+}
+
+.titulo-sitio {
+  flex: 1;
+  text-align: center;
+  font-size: 28px;
+  margin: 0;
+}
+.seccion-articulos {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.titulo-seccion {
+  font-size: 28px;
+  margin-bottom: 20px;
+  border-left: 6px solid crimson;
+  padding-left: 12px;
+  color: #222;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.articulo {
+  display: flex;
+  gap: 15px;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+.articulo img {
+  width: 180px;
+  height: auto;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.info-articulo h2 {
+  font-size: 20px;
+  margin: 0 0 8px;
+  color: #333;
+}
+
+.info-articulo p {
+  margin: 0;
+  color: #555;
+}
+.reading-time {
+  color: #666;
+  font-size: 0.9em;
+  margin: -10px 0 20px 0; /* Ajusta el margen según tu diseño */
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.dark-theme .reading-time {
+  color: #aaa;
+}
+.autor-card {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin: 40px 0;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 10px;
+  border-left: 4px solid #007BFF;
+}
+
+.dark-theme .autor-card {
+  background: #1e1e1e;
+  border-left-color: #4CAF50;
+}
+
+.autor-foto img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.autor-datos h3 {
+  margin: 0 0 5px 0;
+  color: #333;
+}
+
+.dark-theme .autor-datos h3 {
+  color: #fff;
+}
+
+.autor-datos p {
+  margin: 5px 0;
+  color: #666;
+  font-size: 0.9em;
+}
+
+.autor-datos a {
+  color: #007BFF;
+  text-decoration: none;
+  font-size: 0.9em;
+  display: inline-block;
+  margin-top: 5px;
+}
+/* Contenedor principal de imágenes */
+.articulo-imagen {
+  margin: 2rem auto;
+  max-width: 100%;
+  width: 100%;
+  position: relative;
+}
+
+/* Imagen en sí */
+.articulo-imagen img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+/* Efecto hover para interactividad */
+.articulo-imagen img:hover {
+  transform: scale(1.02);
+}
+
+/* Pie de foto opcional */
+.articulo-imagen figcaption {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 0.5rem;
+  font-style: italic;
+}
+
+/* Diseño responsive para diferentes tamaños de pantalla */
+@media (min-width: 768px) {
+  .articulo-imagen {
+    max-width: 80%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .articulo-imagen {
+    max-width: 700px;
+  }
+  
+  /* Estilo para imágenes que deben ser más pequeñas */
+  .articulo-imagen.media {
+    max-width: 500px;
+  }
+}
+#reloj-bogota {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 1.1rem;
+    color: #333;
+    margin-top: 10px;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 6px 12px;
+    border-radius: 20px;
+    width: fit-content;
+    margin: 10px auto 0;
+}
+
+#reloj-bogota i {
+    color: #007BFF;
+}
+
+/* Para el modo oscuro (si lo tienes) */
+.dark-theme #reloj-bogota {
+    color: #eee;
+    background: rgba(0, 0, 0, 0.2);
+}
+#reloj-bogota {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 1.1rem;
+    color: #333;
+    margin: 10px auto 0;
+    padding: 8px 15px;
+    background: #f8f9fa;
+    border-radius: 25px;
+    width: fit-content;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+#reloj-bogota i {
+    color: #007BFF;
+    font-size: 1.2rem;
+}
+
+#hora-bogota {
+    font-family: 'Verdana', sans-serif;
+    font-weight: 500;
+}
+/* Widget de Divisas */
+.widget-divisas {
+    background: #f8f9fa;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 20px 0;
+margin: 5px 0 20px 20px;
+    max-width: 300px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.widget-divisas h3 {
+    margin-top: 0;
+    color: #2c3e50;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.divisas-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.divisa {
+    display: flex;
+    align-items: center;
+    padding: 8px 12px;
+    background: white;
+    border-radius: 8px;
+    font-size: 0.95rem;
+}
+
+.emoji {
+    font-size: 1.4rem;
+    margin-right: 10px;
+}
+
+.moneda {
+    font-weight: bold;
+    width: 40px;
+    color: #34495e;
+}
+
+.valor {
+    margin-left: auto;
+    font-family: 'Courier New', monospace;
+    color: #27ae60;
+}
+
+.actualizacion {
+    font-size: 0.8rem;
+    text-align: right;
+    color: #7f8c8d;
+    margin-bottom: 0;
+}
+
+/* Modo oscuro */
+.dark-theme .widget-divisas {
+    background: #2c3e50;
+}
+
+.dark-theme .divisa {
+    background: #34495e;
+    color: #ecf0f1;
+}
